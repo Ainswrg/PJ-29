@@ -5,6 +5,7 @@ import { BuildOptions } from "./types/config";
 export function buildDevServer(options: BuildOptions): DevServerCongiguration {
     return {
         port: options.port,
-        open: true
+        open: true,
+        historyApiFallback: true,
     }
 }
