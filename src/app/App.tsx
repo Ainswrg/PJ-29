@@ -5,7 +5,7 @@ import "./styles/index.scss";
 import { MainPage } from "../pages/MainPage";
 import { AboutPage } from "../pages/AboutPage";
 import { useTheme } from "./providers/ThemeProvider/lib/useTheme";
-import { className } from "../helpers/classNames/classNames";
+import { className } from "../shared/lib/classNames/classNames";
 
 const App = () => {
     const { theme, toggleTheme } = useTheme();
